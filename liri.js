@@ -1,5 +1,5 @@
-require("dotenv").config();
+require('dotenv').config();
 
-var keys = require("./keys.js");
-
-var spotify = new Spotify(keys.spotify);
+console.log(process.env.TEST_VARIABLE);
+console.log(process.env.SPOTIFY_ID);
+console.log("working");
